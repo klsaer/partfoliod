@@ -1,0 +1,673 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    display: flex;
+align-items: center;
+justify-content: center;
+background: #ddcbcb;
+
+}
+header{
+    position: relative;
+width: 1440px;
+height: 120px;
+left: 0px;
+top: 0px;
+background: #7D5B5B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+footer{
+    position: relative;
+width: 1440px;
+height: 120px;
+left: 0px;
+background: #7D5B5B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+display: flex;
+align-items: center;
+justify-content: center;
+top: 0px;
+}
+.inf1{
+    position: absolute;
+width: 55px;
+height: 16px;
+left: 628px;
+top: 49px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.inf2{
+    position: absolute;
+width: 50px;
+height: 16px;
+left: 707px;
+top: 49px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.inf3{
+    position: absolute;
+width: 40px;
+height: 16px;
+left: 781px;
+top: 49px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.logo{
+    position: absolute;
+width: 80px;
+height: 80px;
+left: 114px;
+top: 20px;
+
+}
+.logo3{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 114px;
+    
+}
+
+.logo1{
+    position: absolute;
+width: 39px;
+height: 44.21px;
+left: 1281px;
+top: 38px;
+
+}
+.pervoe{
+    position: relative;
+width: 1440px;
+height: 870px;
+left: 0px;
+top: 0px;
+
+background: #C8ADAD;
+}
+.ob1{
+    position: absolute;
+    width: 384px;
+    height: 35px;
+    left: 120px;
+    top: 62px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #000000;
+    
+}
+.ob2{
+    position: absolute;
+width: 384px;
+height: 84px;
+left: 120px;
+top: 121px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 42px;
+
+/* Текст */
+
+color: #555252;
+}
+.ob3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 10px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 260px;
+    height: 66px;
+    left: 120px;
+    top: 267px;
+    
+    /* Акцент */
+    
+    background: #C29A9A;
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.img1{
+    position: absolute;
+    width: 1200px;
+    height: 683px;
+    left: 120px;
+    top: 0px;
+}
+.vtoroe{
+    position: relative;
+    width: 1440px;
+    height: 667px;
+    left: 0px;
+    top: 0px;
+    
+    background: #DBC5C5;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.rab1{
+    position: absolute;
+width: 384px;
+height: 35px;
+left: 120px;
+top: 110px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+}
+.rab2{
+    position: absolute;
+width: 747px;
+height: 360px;
+left: 120px;
+top: 175px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+color: #000000;
+}
+.img2{
+    position: absolute;
+width: 417px;
+height: 425px;
+left: 903px;
+top: 110px;
+}
+.tretie{
+    position: relative;
+    width: 1440px;
+    height: 1846px;
+    left: 0px;
+    top: 0px;
+    
+    background: #C8ADAD;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.raob1{
+    position: absolute;
+    width: 384px;
+    height: 35px;
+    left: 120px;
+    top: 90px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #000000;
+}
+.primer1{
+    position: absolute;
+width: 199px;
+height: 408px;
+left: 350px;
+top: 205px;
+
+background: url(image.png);
+border-radius: 53px;
+}
+.primer2{
+    position: absolute;
+width: 483px;
+height: 318px;
+left: 733px;
+top: 291px;
+
+background: url(image.png);
+border-radius: 39px;
+}
+.primer3{
+    position: absolute;
+width: 484px;
+height: 324px;
+left: 224px;
+top: 739px;
+
+background: url(image.png);
+border-radius: 39px;
+}
+.primer4{
+    position: absolute;
+width: 483px;
+height: 324px;
+left: 733px;
+top: 739px;
+
+background: url(image.png);
+border-radius: 39px;
+}
+.primer5{
+    position: absolute;
+width: 486.46px;
+height: 464.28px;
+left: 223px;
+top: 1193px;
+
+background: url(image.png);
+border-radius: 39px;
+}
+.primer6{
+    position: absolute;
+width: 485px;
+height: 467px;
+left: 735px;
+top: 1192px;
+
+background: url(image.png);
+border-radius: 39px;
+}
+.raob2{
+    position: absolute;
+width: 139px;
+height: 38px;
+left: 371px;
+top: 638px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+}
+.raob3{
+    position: absolute;
+width: 151px;
+height: 38px;
+left: 899px;
+top: 634px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+}
+.raob4{
+    position: absolute;
+width: 134px;
+height: 38px;
+left: 394px;
+top: 1088px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+}
+.raob5{
+    position: absolute;
+width: 181px;
+height: 38px;
+left: 884px;
+top: 1088px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+}
+.raob6{
+    position: absolute;
+width: 134px;
+height: 38px;
+left: 403px;
+top: 1683px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+}
+.raob7{
+    position: absolute;
+width: 134px;
+height: 38px;
+left: 911px;
+top: 1698px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+
+}
+.chetvertoe{
+    position: relative;
+width: 1440px;
+height: 682px;
+left: 0px;
+top: 0px;
+
+background: #DBC5C5;
+}
+.cher1{
+    position: absolute;
+width: 263px;
+height: 76px;
+left: 120px;
+top: 110px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+}
+.form_item{
+    width: 400px;
+height: 22px;
+
+font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+
+/* Стиль инпут */
+border-width: 244px;
+border-color: #909090;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 22px 25px;
+gap: 10px;
+isolation: isolate;
+position: absolute;
+    width: 320px;
+    height: 66px;
+    left: 120px;
+    top: 247px;
+
+
+
+/* Стиль инпут */
+
+border: 1px solid #909090;
+}
+.form1{
+    position: absolute;
+    width: 320px;
+    height: 66px;
+    left: 120px;
+    top: 247px;
+}
+.form_item2{
+    width: 400px;
+    height: 22px;
+    
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+    
+    
+    /* Стиль инпут */
+    border-width: 244px;
+    border-color: #909090;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 25px;
+    gap: 10px;
+    isolation: isolate;
+    position: absolute;
+        width: 320px;
+        height: 66px;
+        left: 120px;
+        top: 337px;
+    
+    
+    
+    /* Стиль инпут */
+    
+    border: 1px solid #909090;
+}
+.form2{
+    position: absolute;
+width: 320px;
+height: 66px;
+left: 120px;
+top: 337px;
+}
+.form_item3{
+    width: 400px;
+    height: 22px;
+    
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+    
+    
+    /* Стиль инпут */
+    border-width: 244px;
+    border-color: #909090;
+    
+    color: #909090;
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 25px;
+    gap: 10px;
+    isolation: isolate;
+    position: absolute;
+        width: 320px;
+        height: 66px;
+        left: 120px;
+        top: 427px;
+    
+    
+    
+    /* Стиль инпут */
+    
+    border: 1px solid #909090;
+}
+.cher2{
+    position: absolute;
+width: 333px;
+height: 22px;
+left: 887px;
+top: 107px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+
+color: #000000;
+
+}
+.img10{
+    position: absolute;
+width: 66px;
+height: 66px;
+left: 887px;
+top: 205px;
+
+background: url(image.png);
+}
+.img11{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 887px;
+    top: 293px;
+    
+    background: url(image.png);
+}
+.img12{
+    position: absolute;
+    width: 173.09px;
+    height: 66px;
+    left: 887px;
+    top: 381px;
+    
+    background: url(image.png);
+}
+.img13{
+    position: absolute;
+width: 66px;
+height: 66px;
+left: 887px;
+top: 469px;
+
+background: url(image.png);
+}
+.pf{
+    position: absolute;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 42px;
+left: 1105px;
+}
